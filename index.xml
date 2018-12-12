@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xuebing</title>
+    <link>https://xuebing.io/</link>
+    <description>Recent content on Xuebing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Xuebing Li 2018</copyright>
+    <lastBuildDate>Tue, 11 Dec 2018 21:55:33 +1100</lastBuildDate>
+    
+	<atom:link href="https://xuebing.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://xuebing.io/about/</link>
+      <pubDate>Tue, 11 Dec 2018 21:55:33 +1100</pubDate>
+      
+      <guid>https://xuebing.io/about/</guid>
+      <description>Welcome to my personal blog. I intend to write and share my thoughts on technology, software engineering, and anything that comes to mind.
+Author I&amp;rsquo;m Xuebing (pronounced as shoe-bing). I am a senior software engineer at Zendesk, a customer relationship software company headquartered in San Francisco, where I build fault-tolerant distributed systems at scale. Currently, I work on high-throughput low-latency streaming platform using Scala, Apache Kafka, Kubernetes, and Amazon Web Services (AWS).</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://xuebing.io/post/hello-world/</link>
+      <pubDate>Tue, 11 Dec 2018 21:41:43 +1100</pubDate>
+      
+      <guid>https://xuebing.io/post/hello-world/</guid>
+      <description>&lt;p&gt;A journey of a thousand miles begins with a single step.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
