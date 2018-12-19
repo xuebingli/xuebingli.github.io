@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/xuebingli
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://xuebing.io
+  * I am xuebingli (https://keybase.io/xuebingli) on keybase.
+  * I have a public key ASB18rW6b9QEYQnZQAwBoKN9NmLHEf9_-XSwN9EkaGr3ugo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120668ebcf91af5cf15be8f232f97edd6c80a733d58263e2044398b06b337708bec0a",
+      "host": "keybase.io",
+      "kid": "012075f2b5ba6fd4046109d9400c01a0a37d3662c711ff7ff974b037d124686af7ba0a",
+      "uid": "04cd31b5986466ec6f5ca42d2f548119",
+      "username": "xuebingli"
+    },
+    "merkle_root": {
+      "ctime": 1545258482,
+      "hash": "88c5161ab115bf8ec3893a815a5c173974d099c5a7e009a0ce8fe6d4382e8b0e4da096d86d244d4602abff6f32d3f114a02065c83a4f40e9d62527aa2bd67400",
+      "hash_meta": "2951bbb6031d6e2893882c8075d5df8b3329f20470e0cb3eae225fe00b2b4aec",
+      "seqno": 4171898
+    },
+    "service": {
+      "entropy": "+EoLudYIu6/1mZBGCYAZW34j",
+      "hostname": "xuebing.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.2"
+  },
+  "ctime": 1545258500,
+  "expire_in": 504576000,
+  "prev": "9e49d5c2a37c965309fbf4284de169f37c050f185f12544e6ecf3b9227b8e9c4",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdfK1um/UBGEJ2UAMAaCjfTZixxH/f/l0sDfRJGhq97oKp3BheWxvYWTESpcCF8QgnknVwqN8llMJ+/QoTeFp83wFDxhfElRObs87kie46cTEIDjcMOHtpCnry5Pj4vtrZpODeUaWCjmpX5FbHpC3jp14AgHCo3NpZ8RAXxj96Un275DwoGbzykMsspfIedE+7NDJz6VasjD1qx4SBwQ42b0dEiGXw2Oqi5D0JYwtTAXj9rgRSWMWuCQtAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEPl/aPHA9HYi0cJSIEgb1GNieXu/4eA/038IV9lFYASo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xuebingli
+
+==================================================================
