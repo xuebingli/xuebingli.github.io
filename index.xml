@@ -29,7 +29,7 @@ Previously, I&amp;rsquo;ve worked at a finance software company and a fast-growi
       <pubDate>Wed, 26 Jun 2019 22:01:55 +1000</pubDate>
       
       <guid>https://xuebing.io/post/binary-search-in-scala/</guid>
-      <description>&lt;p&gt;Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming language implements binary search in their standard library. Scala is no exception.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming languages implement binary search in their standard library. Scala is no exception.&lt;/p&gt;</description>
     </item>
     
     <item>
