@@ -6,8 +6,8 @@
     <description>Recent content on Xuebing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License.</copyright>
-    <lastBuildDate>Tue, 11 Dec 2018 21:55:33 +1100</lastBuildDate>
+    <copyright>© This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License. </copyright>
+    <lastBuildDate>Wed, 26 Jun 2019 22:01:55 +1000</lastBuildDate>
     
 	<atom:link href="https://xuebing.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,15 @@
       <guid>https://xuebing.io/about/</guid>
       <description>Welcome to my personal blog. I intend to write and share my thoughts on technology, software engineering, and anything that comes to mind.
 Author I&amp;rsquo;m Xuebing (pronounced as shoe-bing). I am a Staff Engineer at Zendesk, a customer relationship software company headquartered in San Francisco, where I build scalable fault-tolerant distributed systems at scale. Currently, I work on high-throughput low-latency streaming platform using Scala, Apache Kafka, Kubernetes, and Amazon Web Services (AWS).</description>
+    </item>
+    
+    <item>
+      <title>Binary Search in Scala</title>
+      <link>https://xuebing.io/post/binary-search-in-scala/</link>
+      <pubDate>Wed, 26 Jun 2019 22:01:55 +1000</pubDate>
+      
+      <guid>https://xuebing.io/post/binary-search-in-scala/</guid>
+      <description>&lt;p&gt;Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming language implements binary search in their standard library. Scala is no exception.&lt;/p&gt;</description>
     </item>
     
     <item>

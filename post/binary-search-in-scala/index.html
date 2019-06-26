@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>Hello World</title>
+  <title>Binary Search in Scala</title>
 
   
   
@@ -25,27 +25,27 @@
   
 
   
-  
-  <meta name="description" content="A journey of a thousand miles begins with a single step.
+  <meta name="author" content="Xuebing">
+  <meta name="description" content="Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming language implements binary search in their standard library. Scala is no exception.
 ">
 
   
   
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@xuebingli">
-    <meta name="twitter:title" content="Hello World">
-    <meta name="twitter:description" content="A journey of a thousand miles begins with a single step.
+    <meta name="twitter:title" content="Binary Search in Scala">
+    <meta name="twitter:description" content="Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming language implements binary search in their standard library. Scala is no exception.
 ">
-    <meta name="twitter:image" content="/images/avatar.png">
+    <meta name="twitter:image" content="https://xuebing.io/images/binary-search.png">
   
 
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Hello World">
-  <meta property="og:description" content="A journey of a thousand miles begins with a single step.
+  <meta property="og:title" content="Binary Search in Scala">
+  <meta property="og:description" content="Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming language implements binary search in their standard library. Scala is no exception.
 ">
-  <meta property="og:url" content="https://xuebing.io/post/hello-world/">
-  <meta property="og:image" content="/images/avatar.png">
+  <meta property="og:url" content="https://xuebing.io/post/binary-search-in-scala/">
+  <meta property="og:image" content="https://xuebing.io/images/binary-search.png">
 
 
 
@@ -53,7 +53,7 @@
 <meta name="generator" content="Hugo 0.55.5">
 
 
-<link rel="canonical" href="https://xuebing.io/post/hello-world/">
+<link rel="canonical" href="https://xuebing.io/post/binary-search-in-scala/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -199,20 +199,40 @@
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">Hello World</h1>
-      <p class="post-meta">@xuebingli · Dec 11, 2018 · 1 min read</p>
+      <h1 class="post-title">Binary Search in Scala</h1>
+      <p class="post-meta">@Xuebing · Jun 26, 2019 · 1 min read</p>
     </header>
-    <article class="post-content"><p>A journey of a thousand miles begins with a single step.</p>
+    <article class="post-content"><p>Binary search is efficient in locating an element or insertion position in a sorted sequence. Many programming language implements binary search in their standard library. Scala is no exception.</p>
 
-<p>A wise man once said.</p></article>
+<p>Scala provides a unified <code>search</code> method for all <em>sorted</em> sequences. Binary search is used for <code>IndexedSeq</code>, e.g. <code>Vector</code>. For <code>LinearSeq</code> (e.g. <code>List</code>), the fallback is linear search.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#66d9ef">@</span> <span style="color:#66d9ef">import</span> scala.collection.Searching._ <span style="color:#75715e">// No longer needed since Scala 2.13.0
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">7</span><span style="color:#f92672">)</span>
+res1<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Found</span><span style="color:#f92672">(</span><span style="color:#ae81ff">3</span><span style="color:#f92672">)</span>
+
+<span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">4</span><span style="color:#f92672">)</span>
+res2<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">InsertionPoint</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2</span><span style="color:#f92672">)</span></code></pre></div>
+<p>Search can optionally be scoped to part of the sequence.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">7</span><span style="color:#f92672">)</span>
+res1<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Found</span><span style="color:#f92672">(</span><span style="color:#ae81ff">3</span><span style="color:#f92672">)</span>
+
+<span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> from <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span> to <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">6</span><span style="color:#f92672">)</span>
+res2<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">InsertionPoint</span><span style="color:#f92672">(</span><span style="color:#ae81ff">4</span><span style="color:#f92672">)</span></code></pre></div>
+<p>Note that it is the caller&rsquo;s responsibility to ensure the sequence to be sorted. Calling <code>search</code> on unsorted sequences leads to undefined results.</p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
+          <li><a href="https://xuebing.io/tags/scala"><span class="tag">Scala</span></a></li>
+        
+          <li><a href="https://xuebing.io/tags/algorithm"><span class="tag">Algorithm</span></a></li>
+        
+          <li><a href="https://xuebing.io/tags/binarysearch"><span class="tag">BinarySearch</span></a></li>
+        
       </ul>
       
       <p class="post-copyright">
-        © This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License. <br>This post was published <strong>197</strong> days ago.
+        © This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License. 
       </p>
     </footer>
     
