@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>Binary Search for Scala Collections</title>
+  <title>Being on a Careers Panel</title>
 
   
   
@@ -25,27 +25,27 @@
   
 
   
-  <meta name="author" content="XuebingLi">
-  <meta name="description" content="Binary search is efficient in locating an element or insertion position in a sorted collection. Many programming languages implement binary search for collections in their standard library. Scala is no exception.
+  
+  <meta name="description" content="As a University of Melbourne alumnus, I was invited to be on a careers panel on Open Day and share my experience as a software engineer with future students. During the discussion, students asked seemingly straightforward questions and yet I struggled to provide a replicable answer. Here&amp;rsquo;s why.
 ">
 
   
   
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@xuebingli">
-    <meta name="twitter:title" content="Binary Search for Scala Collections">
-    <meta name="twitter:description" content="Binary search is efficient in locating an element or insertion position in a sorted collection. Many programming languages implement binary search for collections in their standard library. Scala is no exception.
+    <meta name="twitter:title" content="Being on a Careers Panel">
+    <meta name="twitter:description" content="As a University of Melbourne alumnus, I was invited to be on a careers panel on Open Day and share my experience as a software engineer with future students. During the discussion, students asked seemingly straightforward questions and yet I struggled to provide a replicable answer. Here&amp;rsquo;s why.
 ">
-    <meta name="twitter:image" content="https://xuebing.io/images/binary-search.png">
+    <meta name="twitter:image" content="https://xuebing.io/images/survivorship-bias.png">
   
 
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Binary Search for Scala Collections">
-  <meta property="og:description" content="Binary search is efficient in locating an element or insertion position in a sorted collection. Many programming languages implement binary search for collections in their standard library. Scala is no exception.
+  <meta property="og:title" content="Being on a Careers Panel">
+  <meta property="og:description" content="As a University of Melbourne alumnus, I was invited to be on a careers panel on Open Day and share my experience as a software engineer with future students. During the discussion, students asked seemingly straightforward questions and yet I struggled to provide a replicable answer. Here&amp;rsquo;s why.
 ">
-  <meta property="og:url" content="https://xuebing.io/post/binary-search-for-scala-collections/">
-  <meta property="og:image" content="https://xuebing.io/images/binary-search.png">
+  <meta property="og:url" content="https://xuebing.io/post/being-on-a-careers-panel/">
+  <meta property="og:image" content="https://xuebing.io/images/survivorship-bias.png">
 
 
 
@@ -53,7 +53,7 @@
 <meta name="generator" content="Hugo 0.55.6">
 
 
-<link rel="canonical" href="https://xuebing.io/post/binary-search-for-scala-collections/">
+<link rel="canonical" href="https://xuebing.io/post/being-on-a-careers-panel/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -199,35 +199,29 @@
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">Binary Search for Scala Collections</h1>
-      <p class="post-meta">@XuebingLi · Jun 26, 2019 · 1 min read</p>
+      <h1 class="post-title">Being on a Careers Panel</h1>
+      <p class="post-meta">@xuebingli · Aug 19, 2019 · 2 min read</p>
     </header>
-    <article class="post-content"><p>Binary search is efficient in locating an element or insertion position in a sorted collection. Many programming languages implement binary search for collections in their standard library. Scala is no exception.</p>
+    <article class="post-content"><p>As a University of Melbourne alumnus, I was invited to be on a careers panel on <a href="https://study.unimelb.edu.au/openday">Open Day</a> and share my experience as a software engineer with future students. During the discussion, students asked seemingly straightforward questions and yet I struggled to provide a <em>replicable</em> answer. Here&rsquo;s why.</p>
 
-<p>Scala provides a unified <code>search</code> method for all <em>sorted</em> collections. Binary search is used for <code>IndexedSeq</code>, e.g. <code>Vector</code>. For <code>LinearSeq</code> (e.g. <code>List</code>), the fallback is linear search.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#66d9ef">@</span> <span style="color:#66d9ef">import</span> scala.collection.Searching._ <span style="color:#75715e">// No longer needed since Scala 2.13.0
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">7</span><span style="color:#f92672">)</span>
-res1<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Found</span><span style="color:#f92672">(</span><span style="color:#ae81ff">3</span><span style="color:#f92672">)</span>
+<p>The idea of such careers panels is to showcase various career opportunities after graduation. Sadly, the showcase is usually not representative because of <a href="https://en.wikipedia.org/wiki/Survivorship_bias">survivorship bias</a>. The panellists are not randomly sampled from the alumni population, and no one is invited to the panel because they have had an unsuccessful career. Top-performing alumni are over represented, and under-performing alumni are often overlooked due to lack of visibility.</p>
 
-<span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">4</span><span style="color:#f92672">)</span>
-res2<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">InsertionPoint</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2</span><span style="color:#f92672">)</span></code></pre></div>
-<p>Search can optionally be scoped to part of the collection.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">7</span><span style="color:#f92672">)</span>
-res1<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Found</span><span style="color:#f92672">(</span><span style="color:#ae81ff">3</span><span style="color:#f92672">)</span>
+<p>Apart from painting an overly optimistic picture, this representation could lead to non-replicable suggestions, too. If one asks a lottery winner for financial advice, with the best intentions, they may suggest lottery as a favorable investment, and may gladly use their own experience as proof. Whether one could replicate their success, however, is questionable at best. Replication of methods could be achievable. Replication of luck is impossible.</p>
 
-<span style="color:#66d9ef">@</span> <span style="color:#a6e22e">Vector</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">3</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">9</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">11</span><span style="color:#f92672">).</span>search<span style="color:#f92672">(</span><span style="color:#ae81ff">7</span><span style="color:#f92672">,</span> from <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span> to <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">6</span><span style="color:#f92672">)</span>
-res2<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">SearchResult</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">InsertionPoint</span><span style="color:#f92672">(</span><span style="color:#ae81ff">4</span><span style="color:#f92672">)</span></code></pre></div>
-<p>Note that it is the caller&rsquo;s responsibility to ensure the collection to be sorted. Calling <code>search</code> on unsorted collections leads to undefined results.</p></article>
+<p>Truth be told, I could not have achieved much without luck, thus I am not immune to the lottery winner symptom.</p>
+
+<p>After being on several panel discussions, I have learned to base advice/suggestions on concrete data (and my interpretations) as much as possible. Though it does not hurt to supplement my own experience alongside, personal experience should not steal the show.</p>
+
+<p>When I do describe personal experience, I do my best to include action context and thought process, as well as what I would do differently today, in the hope that the audience would learn from the decision-making process, if not from the decision itself.</p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
-          <li><a href="https://xuebing.io/tags/scala"><span class="tag">Scala</span></a></li>
+          <li><a href="https://xuebing.io/tags/survivorshipbias"><span class="tag">SurvivorshipBias</span></a></li>
         
-          <li><a href="https://xuebing.io/tags/algorithm"><span class="tag">Algorithm</span></a></li>
+          <li><a href="https://xuebing.io/tags/careers"><span class="tag">Careers</span></a></li>
         
-          <li><a href="https://xuebing.io/tags/binarysearch"><span class="tag">BinarySearch</span></a></li>
+          <li><a href="https://xuebing.io/tags/paneldiscussion"><span class="tag">PanelDiscussion</span></a></li>
         
       </ul>
       

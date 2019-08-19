@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License. </copyright>
-    <lastBuildDate>Wed, 26 Jun 2019 22:01:55 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 10:09:16 +1000</lastBuildDate>
     
 	<atom:link href="https://xuebing.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,6 +21,15 @@
       <description>Welcome to my personal blog. I intend to write and share my thoughts on technology, software engineering, and anything that comes to mind.
 Author I&amp;rsquo;m Xuebing (pronounced as shoe-bing). I am a Staff Engineer at Zendesk, where I build scalable fault-tolerant distributed systems. Currently, I work on high-throughput low-latency streaming platform using Scala, Apache Kafka, Kubernetes, and Amazon Web Services (AWS).
 Previously, I&amp;rsquo;ve worked at a finance software company and a fast-growing startup, where I built loan management software with complex workflows and Airbnb-like marketplace respectively.</description>
+    </item>
+    
+    <item>
+      <title>Being on a Careers Panel</title>
+      <link>https://xuebing.io/post/being-on-a-careers-panel/</link>
+      <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
+      
+      <guid>https://xuebing.io/post/being-on-a-careers-panel/</guid>
+      <description>&lt;p&gt;As a University of Melbourne alumnus, I was invited to be on a careers panel on &lt;a href=&#34;https://study.unimelb.edu.au/openday&#34;&gt;Open Day&lt;/a&gt; and share my experience as a software engineer with future students. During the discussion, students asked seemingly straightforward questions and yet I struggled to provide a &lt;em&gt;replicable&lt;/em&gt; answer. Here&amp;rsquo;s why.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License. </copyright>
-    <lastBuildDate>Wed, 26 Jun 2019 22:01:55 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 10:09:16 +1000</lastBuildDate>
     
 	<atom:link href="https://xuebing.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>careers</title>
+      <link>https://xuebing.io/tags/careers/</link>
+      <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
+      
+      <guid>https://xuebing.io/tags/careers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>panelDiscussion</title>
+      <link>https://xuebing.io/tags/paneldiscussion/</link>
+      <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
+      
+      <guid>https://xuebing.io/tags/paneldiscussion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>survivorshipBias</title>
+      <link>https://xuebing.io/tags/survivorshipbias/</link>
+      <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
+      
+      <guid>https://xuebing.io/tags/survivorshipbias/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>algorithm</title>
