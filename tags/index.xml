@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Xuebing</title>
@@ -8,63 +8,63 @@
     <language>en</language>
     <copyright>© This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Australia License. </copyright>
     <lastBuildDate>Mon, 19 Aug 2019 10:09:16 +1000</lastBuildDate>
-    
+
 	<atom:link href="https://xuebing.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+
     <item>
       <title>career</title>
       <link>https://xuebing.io/tags/career/</link>
       <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
-      
+
       <guid>https://xuebing.io/tags/career/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>panelDiscussion</title>
       <link>https://xuebing.io/tags/paneldiscussion/</link>
       <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
-      
+
       <guid>https://xuebing.io/tags/paneldiscussion/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>survivorshipBias</title>
       <link>https://xuebing.io/tags/survivorshipbias/</link>
       <pubDate>Mon, 19 Aug 2019 10:09:16 +1000</pubDate>
-      
+
       <guid>https://xuebing.io/tags/survivorshipbias/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>algorithm</title>
       <link>https://xuebing.io/tags/algorithm/</link>
       <pubDate>Wed, 26 Jun 2019 22:01:55 +1000</pubDate>
-      
+
       <guid>https://xuebing.io/tags/algorithm/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>binarySearch</title>
       <link>https://xuebing.io/tags/binarysearch/</link>
       <pubDate>Wed, 26 Jun 2019 22:01:55 +1000</pubDate>
-      
+
       <guid>https://xuebing.io/tags/binarysearch/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>scala</title>
       <link>https://xuebing.io/tags/scala/</link>
       <pubDate>Wed, 26 Jun 2019 22:01:55 +1000</pubDate>
-      
+
       <guid>https://xuebing.io/tags/scala/</guid>
       <description></description>
     </item>
-    
+
   </channel>
 </rss>
